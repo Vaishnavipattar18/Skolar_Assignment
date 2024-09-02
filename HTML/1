@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyIntro</title>
+</head>
+<body>
+    <h1>Vaishnavi Vinayak Pattar</h1>
+    <p>I am a student of BE of Computer Science and Engineering.<br>Studing at KLS GIT.</p>
+    <p>My Hobbies</p>
+    <ul>
+        <li>Singing</li>
+        <li>Sketching</li>
+    </ul>
+    <a href="https://www.geeksforgeeks.org">My favourite website which usually refer.</a>
+</body>
+</html>
