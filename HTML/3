@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Time table</title>
+    <style>
+        table{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>WEEKS</th>
+            <th>SUNDAY</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+        </tr>
+        <tr>
+            <td>MORNING</td>
+            <td>Breakfast</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+        </tr>
+        <tr>
+            <td>AFTERNOON</td>
+            <td>Movie</td>
+            <td>Classes</td>
+            <td>Practical</td>
+            <td>Practical</td>
+            <td>Practical</td>
+            <td>Classes</td>
+            <td>Classes</td>
+        </tr>
+        <tr>
+            <td>EVENING</td>
+            <td>Outing time</td>
+            <td>Aptitude</td>
+            <td>Aptitude</td>
+            <td>Technical</td>
+            <td>Technical</td>
+            <td>Coding</td>
+            <td>Leisure</td>
+        </tr>
+    </table>
+</body>
+</html>
