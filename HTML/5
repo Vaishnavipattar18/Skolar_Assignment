@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAVOURITE MOVIES</title>
+</head>
+<body>
+    <ol>
+        <li>18 pages<ul>
+            <li>Released in 2022</li>
+            <li>Main actors: Anupama,Nikhil</li>
+            <li>Thriller/Romantic Film.The lead actor finds the diary of actress in which she wrote everything about her days.</li>
+        </ul></li>
+        <li>Chhichhore<ul>
+            <li>Released in 2019</li>
+            <li>Main actors: Sushant Singh Rajput,Shraddha Kapoor</li>
+            <li>Comedy/Sport Film where the lead take a trip down memory lane of his college days.</li>
+        </ul></li>
+        <li>3 idiots<ul>
+            <li>Released in 2009</li>
+            <li>Main actors: Amir Khan, Sharman Joshi, R.Madhavan,Kareena Kapoor</li>
+            <li>Comedy/romantic film.The story of three friends from their college days to their success.</li>
+        </ul></li>
+        <li>Dia<ul>
+            <li>Released in 2020</li>
+            <li>Main actors: Prithvi,Khushi,Dikshit</li>
+            <li>Thriller/Romantic Film.</li>
+        </ul></li>
+        <li>Ved<ul>
+            <li>Released in 2022</li>
+            <li>Main actors: Ritesh Deshmukh,Genelia,Jiya Shankar</li>
+            <li>Thriller/Romantic Film.</li>
+        </ul></li>
+    </ol>
+</body>
+</html>
