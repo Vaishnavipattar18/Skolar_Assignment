@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic elements</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="about">
+        <h3>Primary Education</h3>
+        <p>Completed in 2019</p>
+    </section>
+    <section class="about">
+        <h3>Pre University</h3>
+        <p>Completed in 2021</p>
+    </section>
+    <article>
+        <p>This is info about my education.</p>
+    </article>
+    <aside class="sidebar">
+        <p>Contact @ <a href="#">Email</a></p>
+    </aside>
+    <footer>
+        <p>&copy; All rights are reserved.</p>
+    </footer>
+</body>
+</html>
