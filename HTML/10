@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Comments</title>
+</head>
+<body>
+    <!--Header Section: The top section of website-->
+    <header>
+        <h1>HTML Comments and Special Characters.</h1>
+    </header>
+    <!--Main Section: Contains Main content of website-->
+    <main>
+        <h3>Special Characters</h3>
+        <p>&amp; -- Ampersand symbol</p>
+        <p>&lt; -- Less than</p>
+        <p>&gt; -- Greater than</p>
+        <p>&copy; -- Copyright</p>
+        <p>&reg; -- Registered trademark</p>
+        <p>&trade; -- Trademark</p>
+    </main>
+</body>
+</html>
