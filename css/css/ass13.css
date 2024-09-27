@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+#box1:hover {
+    background-color: #ff5722;
+    width: 150px;
+    height: 150px;
+}
+
+#box2:hover {
+    background-color: #3F51B5;
+    width: 200px;
+    height: 200px;
+    transition-duration: 1s;
+}
+
+#box3:hover {
+    background-color: #FFC107;
+    width: 120px;
+    height: 120px;
+    transition-timing-function: linear;
+}
+
+#box4:hover {
+    background-color: #E91E63;
+    width: 180px;
+    height: 180px;
+    transition-delay: 0.5s;
+}

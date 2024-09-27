@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Flex Section Styling */
+.flex-section {
+    margin-bottom: 50px;
+}
+
+/* Flexbox Container */
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-container.row {
+    flex-direction: row;
+}
+
+.flex-container.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container.space-between {
+    justify-content: space-between;
+}
+
+/* Flexbox Item Styling */
+.box {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.interactive-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.interactive-button:hover {
+    background-color: #45a049; /* Change color on hover */
+}
+
+.interactive-button:active {
+    background-color: #388e3c; /* Darker shade on click */
+}
+
+/* List Styles */
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+}
+
+.item-list li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.item-list li:hover {
+    background-color: #e0e0e0; /* Change color on hover */
+}
+
+.item-list li:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternate background color for odd items */
+}
+
+/* Focus Effect */
+.item-list li:focus {
+    outline: 2px dashed #4CAF50; /* Outline on focus */
+}
+
+/* Pseudo-Element Styles */
+.item-list li::before {
+    content: "✓ "; /* Add a checkmark before each item */
+    color: #4CAF50;
+}
+
+.item-list li::after {
+    content: " (Click for more)"; /* Add a note after each item */
+    font-size: 12px;
+    color: #888;
+    display: none; /* Hidden by default */
+}
+
+.item-list li:hover::after {
+    display: inline; /* Show note on hover */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model - A Demonstration</title>
+    <link rel="stylesheet" href="assignment4.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <h1>CSS Box Model Tutorial</h1>
+            <nav>
+                <ul>
+                    <li><a href="#content-box">Content-Box</a></li>
+                    <li><a href="#border-box">Border-Box</a></li>
+                    <li><a href="#padding-margin-border">Padding, Border, & Margin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="introduction">
+            <div class="container">
+                <h2>Introduction to CSS Box Model</h2>
+                <p>The CSS box model is essential in web design, as it defines the layout of elements. It consists of margins, borders, padding, and the actual content area. Below are demonstrations of how the different box models work, and how padding, borders, and margins affect layout.</p>
+            </div>
+        </section>
+
+        <!-- Content-Box Section -->
+        <section id="content-box">
+            <div class="container">
+                <h2>Content-Box (Default)</h2>
+                <div class="content-box-demo">
+                    <p>This box uses the <strong>content-box</strong> model. The width is defined by the content size, and padding, borders, and margins are added outside.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Border-Box Section -->
+        <section id="border-box">
+            <div class="container">
+                <h2>Border-Box Model</h2>
+                <div class="border-box-demo">
+                    <p>This box uses the <strong>border-box</strong> model, where the padding and border are included within the width and height of the element.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Padding, Border, Margin Section -->
+        <section id="padding-margin-border">
+            <div class="container">
+                <h2>Padding, Border, and Margin</h2>
+                <div class="box-example">
+                    <p>This example demonstrates how padding, borders, and margins affect the layout of a box element.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CSS Box Model Tutorial. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

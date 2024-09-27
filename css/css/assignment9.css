@@ -1,0 +1,117 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+article, aside {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobile (up to 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section.content {
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Tablet (601px to 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    section.content {
+        flex-direction: row;
+    }
+
+    article, aside {
+        width: 45%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Desktop (901px and up) */
+@media screen and (min-width: 901px) {
+    body {
+        font-size: 18px;
+    }
+
+    section.content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    article, aside {
+        width: 48%;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}

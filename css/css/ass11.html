@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Techniques</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        .box {
+            padding: 20px;
+            margin: 10px 0;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .static {
+            background-color: #4CAF50; /* Green */
+        }
+
+        .relative {
+            position: relative;
+            background-color: #2196F3; /* Blue */
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: #FF5722; /* Orange */
+        }
+
+        .fixed {
+            position: fixed;
+            background-color: #9C27B0; /* Purple */
+            top: 10px;
+            right: 10px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            background-color: #FFC107; /* Yellow */
+        }
+
+        .container {
+            position: relative;
+            margin-top: 50px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Positioning Techniques</h1>
+
+    <div class="box static">1. Static Positioning</div>
+    <p>The default positioning. Elements are positioned according to the normal flow of the document.</p>
+
+    <div class="container">
+        <div class="box relative">2. Relative Positioning</div>
+        <p>The element is positioned relative to its normal position. It can be moved using top, right, bottom, and left properties.</p>
+        <div class="box absolute">3. Absolute Positioning</div>
+        <p>This element is positioned relative to its nearest positioned ancestor (non-static). If no such ancestor exists, it is positioned relative to the initial containing block.</p>
+    </div>
+
+    <div class="box fixed">4. Fixed Positioning</div>
+    <p>This element is positioned relative to the viewport and remains fixed when scrolling.</p>
+
+    <h2>Sticky Positioning Example</h2>
+    <div class="sticky">5. Sticky Positioning</div>
+    <p>This element is positioned based on the user's scroll position. It toggles between relative and fixed, depending on the scroll position.</p>
+
+    <p style="margin-top: 1000px;">Scroll down to see how sticky works.</p>
+
+</body>
+</html>

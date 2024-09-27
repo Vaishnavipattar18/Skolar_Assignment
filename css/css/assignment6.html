@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Flexbox Layout</title>
+    <link rel="stylesheet" href="assignment6.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Advanced Flexbox Layout</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Nested Flex Container Example -->
+        <section id="nested-flex-container" class="flex-section">
+            <h2>Nested Flex Containers</h2>
+            <div class="flex-container parent-container">
+                <div class="box child-container">
+                    <div class="nested-box">Nested 1</div>
+                    <div class="nested-box">Nested 2</div>
+                    <div class="nested-box">Nested 3</div>
+                </div>
+                <div class="box">Item 2</div>
+                <div class="box">Item 3</div>
+            </div>
+        </section>
+
+        <!-- Flex-Wrap Example -->
+        <section id="flex-wrap-container" class="flex-section">
+            <h2>Flex-Wrap (Wrapping Items)</h2>
+            <div class="flex-container wrap-container">
+                <div class="box">Item 1</div>
+                <div class="box">Item 2</div>
+                <div class="box">Item 3</div>
+                <div class="box">Item 4</div>
+                <div class="box">Item 5</div>
+            </div>
+        </section>
+
+        <!-- Order and Alignment Example -->
+        <section id="order-alignment-container" class="flex-section">
+            <h2>Order and Alignment</h2>
+            <div class="flex-container align-order-container">
+                <div class="box" style="order: 2;">Item 2 (Order 2)</div>
+                <div class="box" style="order: 1;">Item 1 (Order 1)</div>
+                <div class="box" style="order: 3;">Item 3 (Order 3)</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Advanced Flexbox Layout. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
